@@ -1,1 +1,1 @@
-This repository mainly hold the java code 
+This repository mainly holds java codes 
