@@ -1,3 +1,5 @@
+//Program to find the indices of two integers of an array that sum up to the target
+
 class Leet1 {
     public int[] solution(int[] nums, int target){
 
