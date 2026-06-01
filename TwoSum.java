@@ -27,8 +27,8 @@ public class TwoSum
 {
     public static void main(String[] args)                      //main method
     {
-        int[] nums={2,7,11,15};
-        int target=9;
+        int[] nums={25,8,3,4,5};
+        int target=7;
         Leet1 obj=new Leet1();
         int[] result=obj.solution(nums,target);
         System.out.println(result[0]+","+result[1]);
