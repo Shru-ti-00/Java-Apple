@@ -5,6 +5,7 @@ class Leet1 {
     public int[] solution(int[] nums, int target){
 
         int[] indices=new int[2];
+        int found=1;
 
         for(int i=0;i<nums.length;i++)
         {
@@ -14,11 +15,13 @@ class Leet1 {
                 {
                     indices[0]=i;
                     indices[1]=j;
+                    found=1;
                     break;
                 }
-                
+                               
             }
         }
+
         return indices;
     }    
 }
@@ -27,7 +30,7 @@ public class TwoSum
 {
     public static void main(String[] args)                      //main method
     {
-        int[] nums={25,8,3,4,5};
+        int[] nums={25,8,9,4,5};
         int target=7;
         Leet1 obj=new Leet1();
         int[] result=obj.solution(nums,target);
