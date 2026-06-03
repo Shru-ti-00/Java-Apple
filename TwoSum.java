@@ -33,7 +33,7 @@ public class TwoSum
         int[] nums={25,8,9,4,5};
         int target=7;
         Leet1 obj=new Leet1();
-        int[] result=obj.solution(nums,target);
+        int[] result=obj.solution(nums,target);                 //method call
         System.out.println(result[0]+","+result[1]);
 
     }
