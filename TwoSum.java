@@ -2,7 +2,7 @@
 //Program to find the indices of two integers of an array that sum up to the target
 
 class Leet1 {
-    public int[] solution(int[] nums, int target){
+    public int[] solution(int[] nums, int target){         //method containing the solution 
 
         int[] indices=new int[2];
         int found=1;
